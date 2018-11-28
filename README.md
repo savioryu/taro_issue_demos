@@ -16,4 +16,4 @@ Uncaught (in promise) Error: Could not find "store" in either the context or pro
     at updateComponent (index.js?1e21:1647)
 ```
 
-通过 redux 的 action 注入参数到 props 中，在 render 中使用 props 的数据渲染自定义子组件，就不会有问题
+通过 redux 的 action 注入数据到 props 中，在 render 中使用 props 的数据渲染自定义子组件，就不会有问题
